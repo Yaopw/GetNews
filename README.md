@@ -1,0 +1,4 @@
+这个项目可以自动爬取百度热点新闻并进行热点分析
+爬虫部分：用Python的requests+BeautifulSoup）
+分析部分：用Pandas进行词频统计和热点分析
+可视化：用Matplotlib生成的词云图和趋势图
