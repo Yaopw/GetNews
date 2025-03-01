@@ -1,0 +1,27 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>新闻列表</title>
+    <form method="POST" action="{% url 'run_scripts' %}">
+        <input type="hidden" name="running" value="{{ running }}">
+        {% csrf_token %}
+        <button type="submit">爬取数据并分析</button>
+    </form>
+    {% if running %}
+    <p>正在运行</p>
+    {% endif %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>新闻列表</h1>
+    <ul>
+        {% for news in news_list %}
+            <li><a href="{% url 'news_detail' news_id=news.ids %}">{{ news.title }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

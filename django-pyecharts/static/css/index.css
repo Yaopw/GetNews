@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-12-18 08:42:10
+ * @version $Id$
+ */
+a:hover{
+	text-decoration: none;
+}
+.no-padding-h{
+	padding-left: 0;
+	padding-right: 0:  
+}
+.navbar-right{
+	margin-left: 500px;
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+.slide-bar .list-group-item{
+	border: 0;
+	margin-bottom: 5px;
+}
+.slide-bar .active{
+	background-color: #ea0c3c;
+}
+img,
+.slide-bar .list-group-item,
+.slide-bar-card{
+	border-radius: 3px;
+}
+.news-list .title{
+	display: block;
+	color: #444;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	line-height: 1.5;
+}
+.news-list .title:hover{
+	color: #337ab7;
+}
+.news-list .info{
+	color: #888;
+
+}
+.news-list .avatar{
+	display: inline-block;
+}
+.news-list .avatar img{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	margin-right: 5px;
+}
+.news-list-item{
+	padding-bottom: 15px;
+	padding-top: 15px;
+	border-bottom: solid 1px #ccc;
+}
+.news-list-item:first-child{
+	padding-top: 0;
+}
+.slide-bar-card{
+	background-color: rgba(0,0,0,0.05);
+	margin-top: 15px;
+	padding: 10px 0;
+
+}
+.slide-bar-card .flag{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.slide-bar-card .text-lg{
+	font-size: 150%;
+}
+.slide-bar-card .card-title,
+.slide-bar-card .card-body .list .item{
+	padding: 10px 15px;
+}
+.slide-bar-card .card-body .list .item:hover{
+	background: rgba(0,0,0,0.05)
+}
+.slide-bar-card .card-title{
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.card-body .list .item .title{
+	padding-bottom: 5px;
+}
+.card-body .list .item .desc{
+	color: #999;
+}
+
+.news-title{
+	line-height: 1.3;
+}
+
+.news-status{
+	color: #999;
+}
+.news-status .label{
+	opacity: .8;
+}
+.news-content{
+	margin-top: 20px;
+	font-size: 15px;
+	line-height: 1.5;
+}
+.news-content img{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.container-small{
+	max-width: 500px;
+
+}
+
+.btn-primary{
+	background-color: #ea0c3c;
+	border-color: #db0b33a;
+}
+
+.btn-primary:hover{
+	background-color:#d50c37;
+	border-color: #d50c37;
+}
+
+
+.footer{
+	margin-top: 20px;
+	padding: 50px 0;
+	text-align: center;
+	color: #999;
+}

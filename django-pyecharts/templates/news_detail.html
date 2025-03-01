@@ -1,0 +1,25 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ news.title }}</title>
+    <link rel="stylesheet" href="{% static 'css/style1.css' %}">
+</head>
+<body>
+    <h1>{{ news.title }}</h1>
+    <h3>文章链接:</h3>
+    <a href={{ news.link }}>{{ news.link }}</a>
+    <h3>文章内容:</h3>
+    <p>{{ news.content }}</p>
+    <h3>文章摘要</h3>
+    <p>{{ news.summary }}</p>
+    <h3>文章关键词</h3>
+    <p>{{ news.keywords }}</p>
+    <h3>文章题材</h3>
+    <p>{{ news.topic }}</p>
+    <h3>文章情感极性</h3>
+    <p>{{ news.sentiment }}</p>
+</body>
+</html>
